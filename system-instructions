@@ -1,0 +1,219 @@
+# File 2: brand-guidelines.md
+# Brand Guidelines: AdaptiveAI (Website + Deck)
+
+## Brand Name
+**AdaptiveAI**
+
+## Brand Purpose (1–2 lines)
+AdaptiveAI protects digital banking customers by detecting fraud in real time, adapting to evolving patterns, and providing clear, evidence-based explanations using AI and graph intelligence.
+
+## Brand Personality
+- Trustworthy
+- Security-first
+- Calm and precise
+- Futuristic but professional
+- Transparent and evidence-driven
+
+## Core Brand Promises (Must Be Visible Across Website)
+- **Real-time monitoring** of transactions
+- **Adaptive detection** as fraud patterns evolve
+- **Graph intelligence** to uncover hidden networks
+- **Explainability by design** for trust and compliance
+
+---
+
+## Visual Identity
+
+### Color System
+Use a dark, high-contrast look suitable for SOC-style monitoring dashboards.
+
+- **Primary:** Deep Indigo / Purple (secure, premium)
+  - Background gradients: near-black → indigo → purple
+- **Accent:** Electric Cyan (intelligence highlights, active states)
+- **Support Accents (optional, limited use):**
+  - **Warning/At Risk:** Amber / Orange
+  - **Confirmed Fraud / Critical:** Red
+  - **Safe / Normal:** Green
+- **Neutrals:** Charcoal / Slate for cards, dividers, table rows
+
+**Rules**
+- Use cyan for “active/live/selected” and key metrics.
+- Use red only for confirmed or very high-risk states.
+- Keep gradients subtle; never reduce text readability.
+
+### Typography
+- **Headings:** Bold, modern, large
+- **Body:** Clean, readable, medium weight
+- **Tables:** Slightly condensed, high legibility
+
+**Rules**
+- Use consistent sizes for hierarchy:
+  - H1 (page title), H2 (sections), H3 (panels), Body (content)
+- Avoid long paragraphs. Prefer bullets and short sentences.
+
+### Layout & Spacing
+- Minimal clutter
+- Strong visual hierarchy
+- Plenty of negative space
+- Consistent grid (cards aligned, equal padding)
+- Clear separation between “Monitoring”, “Alerts”, and “Case Detail”
+
+### Motifs / Graphics Direction (Text-only)
+- Connected nodes + edges (graph intelligence)
+- Streaming lines (real-time pipeline)
+- Digital shields (protection)
+- Abstract network patterns (fraud rings)
+
+**Rules**
+- Motifs should be subtle background elements, never competing with data.
+
+---
+
+## Website UI Guidelines (Mandatory)
+
+### Global Navigation (Recommended)
+- Dashboard
+- Alerts
+- Cases
+- Graph Explorer
+- Monitoring
+- Settings (optional)
+
+**Navigation rules**
+- Keep primary navigation always visible.
+- “Alerts” should show a badge count (new/high risk).
+
+### Component Styling
+
+#### Cards (KPIs and Panels)
+- Dark card surface with slight border or glow
+- Title + value + small trend indicator
+- Cyan accent line for “live” cards
+
+**KPI Examples**
+- Transactions Processed (Live)
+- Flagged Suspicious
+- Pending Review
+- Confirmed Fraud (if available)
+
+#### Tables (Alerts Queue)
+- Zebra rows or subtle separators
+- Sticky header row
+- Fast scanning: columns must be short and consistent
+
+**Required Columns**
+- Timestamp
+- Transaction ID
+- Amount (masked if needed)
+- Risk Score
+- Decision (Allow / Challenge / Block / Review)
+- Status (New / In Review / Resolved)
+- Explanation Snippet (1 line)
+- Graph Evidence (Yes/No)
+
+**Table rules**
+- Show critical signals first (Risk Score, Decision, Explanation).
+- Use color chips for Decision and Status (see “Status + Severity System”).
+
+#### Charts (Trends)
+- Dark-mode friendly charts with cyan series as default
+- Gridlines subtle
+- Tooltips clear and not cluttered
+
+**Recommended Charts**
+- Flag rate over time
+- Alerts by decision type
+- Top explanation drivers (aggregated tags)
+- Entity risk distribution (accounts/devices/merchants)
+
+#### Graph Explorer
+- Nodes: consistent shapes/colors by entity type
+  - Account, Device, Merchant, IP, Beneficiary, etc.
+- Edges: show relation type (used by, paid to, shared device, shared IP)
+- Highlight suspicious clusters with amber/red glow
+
+**Graph rules**
+- Always provide a text explanation alongside the visual:
+  - “This cluster is suspicious because …”
+
+---
+
+## Status + Severity System (Standardized)
+
+### Decision Labels (Explainable Output)
+- **Allow** (safe, green)
+- **Review** (needs analyst, amber)
+- **Challenge** (step-up auth, orange)
+- **Block** (high confidence fraud, red)
+
+### Risk Score Display
+- Show numeric score plus category:
+  - Low / Medium / High / Critical
+- Never claim “100% fraud”. Use “Critical risk” instead.
+
+### Badges / Chips (UI)
+- Rounded chips, high contrast text
+- Consistent placement across tables and case pages
+
+---
+
+## Writing Style (Website + Slides)
+
+### Voice
+- Clear
+- Confident
+- Technical but accessible
+- Evidence-first
+
+### Tone
+- Direct and factual
+- No hype
+- No vague claims
+
+### Preferred Verbs
+Use:
+- detect
+- adapt
+- flag
+- explain
+- protect
+- trace
+- uncover
+- validate
+
+### Must-Emphasize Themes
+- Real-time streaming detection (not batch)
+- Evolving fraud patterns
+- Unified framework (AI + graph)
+- Explainability and trust
+
+### Avoid
+- Buzzwords without definition
+- Unsupported performance numbers (accuracy/recall/latency) unless measured
+- Overpromising (“stops all fraud”, “zero false positives”)
+
+---
+
+## Standard Explanation Format (How the Website Should Phrase It)
+Every case explanation must follow this structure:
+
+1. **What happened**
+2. **Why it is suspicious (AI signals)**
+3. **What network evidence exists (graph)**
+4. **Recommended action**
+5. **Confidence / uncertainty note** (if available, otherwise omit)
+
+---
+
+## UI Microcopy Examples (Approved)
+- “Flagged due to abnormal transfer velocity and new device.”
+- “Graph evidence indicates connection to a high-risk recipient cluster.”
+- “Recommended action: Challenge with step-up authentication.”
+- “Reason codes: Device change, geo-distance spike, shared beneficiary network.”
+
+---
+
+## Accessibility & Clarity Rules
+- Contrast must remain readable on projectors.
+- Color must not be the only indicator (always include text labels).
+- Keep critical actions (Mark Fraud / Not Fraud / Escalate) prominent and separated.

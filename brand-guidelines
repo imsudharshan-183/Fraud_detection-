@@ -1,0 +1,90 @@
+# File 2: brand-guidelines.md
+# Brand Guidelines: AdaptiveAI
+
+## Brand Name
+**AdaptiveAI**
+
+## Brand Purpose (1–2 lines)
+AdaptiveAI provides real-time, adaptive fraud detection for digital banking by combining deep learning with graph intelligence and producing explainable decisions.
+
+## Brand Personality
+- Trustworthy
+- Security-first
+- Calm and precise
+- Futuristic but professional
+- Data-driven and transparent
+
+## Core Brand Promises
+- **Real-time monitoring** of banking transactions
+- **Adaptive learning** to keep up with evolving fraud patterns
+- **Graph intelligence** to reveal hidden relationships and fraud networks
+- **Explainability by design** to increase trust and enable review
+
+## Visual Identity
+### Color System
+- **Primary:** Deep Indigo / Purple (dark, premium, secure)
+- **Accent:** Electric Cyan (signals intelligence, highlights key insights)
+- **Backgrounds:** Dark gradients (reduce noise, elevate focus)
+- **Contrast:** High contrast for readability on projected screens
+
+### Design Style
+- Minimal clutter
+- Strong hierarchy (big headings, short bullets)
+- Plenty of negative space
+- “Security + intelligence” feel through subtle network/graph motifs
+
+### Motifs / Imagery Direction (Text-only)
+- Connected nodes and edges (graphs)
+- Streaming lines (real-time data)
+- Digital shields (protection)
+- Abstract network patterns (fraud rings, relationships)
+
+## Typography Vibe (Tool-Agnostic)
+- Bold, modern headings
+- Clean body text
+- Short punchy bullets instead of long paragraphs
+
+## Voice & Tone
+### Voice
+- Clear
+- Confident
+- Technical but accessible
+
+### Tone
+- Direct and factual
+- Avoids exaggeration
+- Emphasizes verification and evidence
+
+## Messaging Rules
+### Preferred Verbs
+Use strong verbs such as:
+- detect
+- adapt
+- flag
+- explain
+- protect
+- trace
+- uncover
+- validate
+
+### Must-Emphasize Themes
+- Real-time streaming detection (not batch)
+- Evolving fraud patterns
+- Unified framework (AI + graph)
+- Explainability and trust
+
+### Avoid
+- Buzzwords without definition
+- Unsupported performance numbers (accuracy/recall/latency) unless explicitly measured
+- Overpromising like “stops all fraud” or “zero false positives”
+
+## Approved One-Liners (Pick One)
+- “AdaptiveAI detects fraud in real time and explains why.”
+- “Real-time fraud detection powered by adaptive AI and graph intelligence.”
+- “Uncover fraud patterns faster with explainable, adaptive detection.”
+
+## Slide Writing Style
+- One idea per slide
+- Max 4–6 bullets per slide
+- Highlight keywords with consistent emphasis (caps or bold, but not both excessively)
+- Keep technical terms consistent across the deck (Kafka, Spark, Graph Analysis, Explainable Output)
